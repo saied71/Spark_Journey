@@ -4,3 +4,5 @@ This repository contains my journey through learning apache spark. For now, I go
 Later on, I will plan to do some real-world projects involving some libraries such as MLlib, GrapghX...
 
 **Day1:** Introduction to spark. overview of different API's and end-to-end example
+
+**Day2:** getting an overview of unmentioned Tools and APIs such as spark streaming and MLlib also do some additional example of MLlib   

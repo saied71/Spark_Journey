@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(package saied.spark.Da2, Some(9458cca8-1b6e-4367-a5c5-66f893d8dcc7), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mExpected whitespace character[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '/'[0m
+[0m[[0m[31merror[0m] [0m[0mpackage saied.spark.Da2[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
