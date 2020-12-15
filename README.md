@@ -5,4 +5,6 @@ Later on, I will plan to do some real-world projects involving some libraries su
 
 **Day1:** Introduction to spark. overview of different API's and end-to-end example
 
-**Day2:** getting an overview of unmentioned Tools and APIs such as spark streaming and MLlib also do some additional example of MLlib   
+**Day2:** getting an overview of unmentioned Tools and APIs such as spark streaming and MLlib also do some additional example of MLlib.
+
+**Day3:** Structured API Overview and how codes spark transform codes into what will physically execute on the cluster.this was mostly theoretical.
