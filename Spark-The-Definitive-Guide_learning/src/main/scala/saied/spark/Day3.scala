@@ -18,6 +18,6 @@ object Day3 {
     df.select(df.col("number")+10).show(5)
     println(spark.range(5).toDF().collect())
 
-    
+
   }
 }
