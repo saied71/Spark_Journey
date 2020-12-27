@@ -47,9 +47,9 @@ object Day5 {
       'DEST_COUNTRY_NAME,
       expr("DEST_COUNTRY_NAME")).show(2)
 
-    df.select(expr("DEST_COUNTRY_NAME AS fuck")).show(2)
+    df.select(expr("DEST_COUNTRY_NAME AS sth")).show(2)
 
-    df.select(expr("DEST_COUNTRY_NAME AS FUCK").alias("DEST_COUNTRY_NAME"))
+    df.select(expr("DEST_COUNTRY_NAME AS sth").alias("DEST_COUNTRY_NAME"))
       .show(2)
 
     df.selectExpr("DEST_COUNTRY_NAME as STH", "DEST_COUNTRY_NAME").show(2)
