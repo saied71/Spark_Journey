@@ -78,10 +78,17 @@ object Day6 {
 //      .where($"ORIGIN_COUNTRY_NAME" =!= "United States")
 //      .show()
 
-    df.sort(expr("count asc")).show()
-    df.orderBy(col("count"), col("DEST_COUNTRY_NAME")).show()
+//    df.sort(expr("count asc")).show()
+//    df.orderBy(col("count"), col("DEST_COUNTRY_NAME")).show()
 
+//    df.orderBy(desc("count"), asc("DEST_COUNTRY_NAME")).show()
 
-    
+//    spark.read.format("json")
+//      .load("/home/saied/Data_Science/bIG_dATA/Spark-The-Definitive-Guide/data/flight-data/json/*summary.json")
+//      .sortWithinPartitions("count").show()
+
+    df.orderBy(expr("ORIGIN_COUNTRY_NAME desc")).limit(10).show()
+    println(df.rdd.getNumPartitions)
+
   }
 }
