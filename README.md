@@ -12,3 +12,5 @@ Later on, I will plan to do some real-world projects involving some libraries su
 **Day4,5:** this was mostly Basic Structured Operations and different kinds of loading dataframes,getting started with dataFrame transformations and different fucntion and how they works
 
 **Day6:** experimenting different transformations: Renaming Columns,Removing Columns,Changing a Column’s Type (cast),Filtering Rows,Getting Unique Rows,Random Samples and Split, Concatenating and Appending Rows,Sorting Rows
+
+**Day7:** Working with Booleans type
